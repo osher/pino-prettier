@@ -1,0 +1,7 @@
+{"level":"info","time":1588598095327,"pid":10844,"hostname":"osher-laptop","name":"calc-cli","version":"1.0.0","msg":"starting up","v":1}
+{"level":"info","time":1588598095333,"pid":10844,"hostname":"osher-laptop","name":"calc-cli","version":"1.0.0","from":"validator","caller":"validator","layerName":"BL","iocName":"calc","moduleIndex":0,"msg":"module validated","v":1}
+{"level":"info","time":1588598095333,"pid":10844,"hostname":"osher-laptop","name":"calc-cli","version":"1.0.0","from":"validator","caller":"validator","layerName":"interface","iocName":"cmd","moduleIndex":0,"msg":"module validated","v":1}
+{"level":"info","time":1588598095335,"pid":10844,"hostname":"osher-laptop","name":"calc-cli","version":"1.0.0","from":"core","caller":"core","msg":"running","v":1}
+{"level":"info","time":1588598095335,"pid":10844,"hostname":"osher-laptop","name":"calc-cli","version":"1.0.0","from":"cmd","caller":"cmd","msg":"running command: compute","v":1}
+{"level":"info","time":1588598095335,"pid":10844,"hostname":"osher-laptop","name":"calc-cli","version":"1.0.0","from":"cmd","caller":"cmd","foo":"bar","v":1}
+{"level":"info","time":1588598095335,"pid":10844,"hostname":"osher-laptop","name":"calc-cli","version":"1.0.0","args":[1,2,3,4],"result":10,"msg":"calc results","v":1}

@@ -1,0 +1,16 @@
+[32mINFO [39m [13:14:55.327]: [1mcalc-cli[22m : [36mstarting up[39m
+[32mINFO [39m [13:14:55.333]: [38;5;128;1mvalidator[0m : [36mmodule validated[39m
+    layerName: [32m'BL'[39m
+    iocName: [32m'calc'[39m
+    moduleIndex: [33m0[39m
+[32mINFO [39m [13:14:55.333]: [38;5;128;1mvalidator[0m : [36mmodule validated[39m
+    layerName: [32m'interface'[39m
+    iocName: [32m'cmd'[39m
+    moduleIndex: [33m0[39m
+[32mINFO [39m [13:14:55.335]: [38;5;39;1mcore[0m : [36mrunning[39m
+[32mINFO [39m [13:14:55.335]: [38;5;166;1mcmd[0m : [36mrunning command: compute[39m
+[32mINFO [39m [13:14:55.335]: [38;5;166;1mcmd[0m
+    foo: [32m'bar'[39m
+[32mINFO [39m [13:14:55.335]: [1mcalc-cli[22m : [36mcalc results[39m
+    args: [ [33m1[39m, [33m2[39m, [33m3[39m, [33m4[39m ]
+    result: [33m10[39m

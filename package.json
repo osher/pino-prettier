@@ -1,0 +1,47 @@
+{
+  "name": "pino-prettier",
+  "version": "1.0.1",
+  "description": "a pretifier for pino logger json-output based on pino-pretty.",
+  "main": "lib/index.js",
+  "bin": {
+    "prettier": "bin/bin.js"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osher/pino-prettier.git"
+  },
+  "keywords": [],
+  "author": "exco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osher/pino-prettier/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "homepage": "https://github.com/osher/pino-prettier#readme",
+  "dependencies": {
+    "pino-pretty": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "mocha": "^7.1.0",
+    "nyc": "^15.0.0",
+    "should": "^13.2.3",
+    "trash-cli": "^3.0.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "precover": "trash coverage",
+    "cover": "nyc mocha",
+    "lint": "eslint ."
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
+}
