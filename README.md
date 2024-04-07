@@ -7,7 +7,7 @@ A terminal pino json-stream beautifier, based on pino-pretty
 Given that your `svr.js` uses `pino` and emits `json-stream` to stdout, then:
 
 ```
-node svr.js | prettier
+node svr.js | pino-prettier
 ```
 ## installation
 
@@ -16,12 +16,12 @@ node svr.js | prettier
 ```
 npm i -g 'pino-prettier'
 ```
-After which, your machine has learnt a new command, `prettier` to which you may pipe the stdoutput of your pino logger program.
+After which, your machine has learnt a new command, `pino-prettier` to which you may pipe the stdoutput of your pino logger program.
 
 ### local to project
 
 ```
-npm i -g 'pino-prettier'
+npm i 'pino-prettier'
 ```
 
 After which you may use it in your `package.json` scripts.
@@ -30,7 +30,8 @@ e.g.:
 ```
   "scripts": {
      ...
-    "run": "node svr.js | prettier",
+    "run": "node svr.js",
+    "run:pretty": "node svr.js | pino-prettier",
     ...
   },
 ```
@@ -48,3 +49,9 @@ This first version is customizable as far as CLI arguments supported by `pino-pr
 However, every customization that is supported by CLI arguments are stronger than the baked-in config file shipped with this package.
 
 Have fun :)
+
+## history
+
+* **2.0.3** - cli command changed from `prettier` to `pino-prettier` so it wont collide with the `prettier` lint tool.
+* **1.0.1** - first stable, however works only as CLI
+* **1.0.0** - was depricated for a bug, and unpublished after a cooldown period.

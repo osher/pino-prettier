@@ -1,10 +1,10 @@
 {
   "name": "pino-prettier",
-  "version": "1.0.1",
+  "version": "2.0.3",
   "description": "a pretifier for pino logger json-output based on pino-pretty.",
   "main": "lib/index.js",
   "bin": {
-    "prettier": "bin/bin.js"
+    "pino-prettier": "bin/bin.js"
   },
   "files": [
     "lib",
