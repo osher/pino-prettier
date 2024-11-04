@@ -1,16 +1,49 @@
-[32mINFO [39m [13:14:55.327]: [1mcalc-cli[22m : [36mstarting up[39m
-[32mINFO [39m [13:14:55.333]: [38;5;128;1mvalidator[0m : [36mmodule validated[39m
-    layerName: [32m'BL'[39m
-    iocName: [32m'calc'[39m
-    moduleIndex: [33m0[39m
-[32mINFO [39m [13:14:55.333]: [38;5;128;1mvalidator[0m : [36mmodule validated[39m
-    layerName: [32m'interface'[39m
-    iocName: [32m'cmd'[39m
-    moduleIndex: [33m0[39m
-[32mINFO [39m [13:14:55.335]: [38;5;39;1mcore[0m : [36mrunning[39m
-[32mINFO [39m [13:14:55.335]: [38;5;166;1mcmd[0m : [36mrunning command: compute[39m
-[32mINFO [39m [13:14:55.335]: [38;5;166;1mcmd[0m
-    foo: [32m'bar'[39m
-[32mINFO [39m [13:14:55.335]: [1mcalc-cli[22m : [36mcalc results[39m
-    args: [ [33m1[39m, [33m2[39m, [33m3[39m, [33m4[39m ]
-    result: [33m10[39m
+[90mTRACE[39m [16:52:06.008]: [36m[1mapplication[22m : [36mwhat is it[36m[39m
+    some: [32m'context'[39m
+[34mDEBUG[39m [16:52:06.009]: [36m[38;5;76;1mloi[0m : [36mthis is debug info[36m[39m
+    more: [32m'context'[39m
+[32mINFO[39m [16:52:06.009]: [36m[1mapplication[22m : [36msome milestone happened[36m[39m
+    count: [33m12[39m
+[33mWARN[39m [16:52:06.009]: [36m[38;5;202;1mfrerre[0m : [36mim not sure about this[36m[39m
+    err: {
+      type: [32m'Error'[39m,
+      message: [32m'oupsy'[39m,
+      stack: [32m'Error: oupsy\n'[39m +
+        [32m'    at Object.<anonymous> (/home/osher/opensource/pino-prettier/test/fx/uses-pino.js:35:20)\n'[39m +
+        [32m'    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n'[39m +
+        [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n'[39m +
+        [32m'    at Module.load (node:internal/modules/cjs/loader:1288:32)\n'[39m +
+        [32m'    at Module._load (node:internal/modules/cjs/loader:1104:12)\n'[39m +
+        [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n'[39m +
+        [32m'    at node:internal/main/run_main_module:28:49'[39m
+    }
+[31mERROR[39m [16:52:06.009]: [36m[38;5;209;1mmoi[0m : [36moupsy dazy[36m[39m
+    err: {
+      type: [32m'RichError'[39m,
+      message: [32m'OUCH'[39m,
+      stack: [32m'Error: OUCH\n'[39m +
+        [32m'    at Object.<anonymous> (/home/osher/opensource/pino-prettier/test/fx/uses-pino.js:36:18)\n'[39m +
+        [32m'    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n'[39m +
+        [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n'[39m +
+        [32m'    at Module.load (node:internal/modules/cjs/loader:1288:32)\n'[39m +
+        [32m'    at Module._load (node:internal/modules/cjs/loader:1104:12)\n'[39m +
+        [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n'[39m +
+        [32m'    at node:internal/main/run_main_module:28:49'[39m,
+      code: [32m'EOUCH'[39m,
+      class: [32m'ouch error'[39m
+    }
+[41mFATAL[49m [16:52:06.009]: [36m[38;5;209;1mmoi[0m : [36mtime to say goodbye[36m[39m
+    err: {
+      type: [32m'RichError'[39m,
+      message: [32m'Silence! I kill you!'[39m,
+      stack: [32m'Error: Silence! I kill you!\n'[39m +
+        [32m'    at Object.<anonymous> (/home/osher/opensource/pino-prettier/test/fx/uses-pino.js:37:18)\n'[39m +
+        [32m'    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n'[39m +
+        [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n'[39m +
+        [32m'    at Module.load (node:internal/modules/cjs/loader:1288:32)\n'[39m +
+        [32m'    at Module._load (node:internal/modules/cjs/loader:1104:12)\n'[39m +
+        [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n'[39m +
+        [32m'    at node:internal/main/run_main_module:28:49'[39m,
+      code: [32m'SIGTERM'[39m
+    }
+[32mINFO[39m [16:52:06.009]: [36m[1mapplication[22m : [36mexited gracefully[36m[39m

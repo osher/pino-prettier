@@ -116,7 +116,7 @@ rules:
   no-buffer-constructor: error
   no-caller: error
   no-catch-shadow: error
-  no-confusing-arrow: error
+  no-confusing-arrow: 'off'
   no-console: 'off'
   no-constructor-return: error
   no-continue: error
