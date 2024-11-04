@@ -3,8 +3,8 @@ const faker = require('faker')
 const SUT = require('../lib/custom-prettifiers.js')
 
 describe('lib/custom-prettifiers', () => {
-  it('should be a factory function', () => {
-    Should(SUT).be.a.Function()
+  it('should be a factory function that does not require any mandatory argument', () => {
+    Should(SUT).be.a.Function().with.arity(0)
   })
 
   describe('formatter obtained by the factory', () => {

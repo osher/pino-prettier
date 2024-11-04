@@ -1,6 +1,10 @@
 const SUT = require('../lib/set-config-cli-switch.js')
 
 describe('lib/set-config-cli-switch', () => {
+  it('should be a factory function that does not require any arguments', () => {
+    Should(SUT).be.a.Function().with.arity(0)
+  })
+
   describe('when called without --config <path> in process.argv', () => {
     const mockProcess = { argv: ['node', 'bin.js', '-C', 'not.the.config.js'] }
     before(() => {

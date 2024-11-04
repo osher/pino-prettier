@@ -4,7 +4,7 @@ const SUT = require('../lib/format-message.js')
 
 describe('lib/format-message', () => {
   it('should be a factory function that does not require any mandatory argument', () => {
-    Should(SUT).be.a.Function().property('length', 0)
+    Should(SUT).be.a.Function().with.arity(0)
   })
 
   describe('calling a formatter obtained by the factory', () => {
