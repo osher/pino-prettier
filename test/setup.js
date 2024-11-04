@@ -1,6 +1,5 @@
 global.Should = require('should')
 
-
 global.Should.Assertion.add('arity', function arity(n) {
   this.params = { operator: `to have arity of ${n}` }
 
