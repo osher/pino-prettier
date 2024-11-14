@@ -8,6 +8,7 @@ describe('pino-prettier - used as pino transport', () => {
   //TRICKYEnd
   //TRICKY: removes stack-trace entries that appear only in cover mode :shrug:
   const normalizeStackTraces = str => str
+    .replace(new RegExp(process.cwd(), 'g'), '~')
     .replace(/^.*node_modules\/append-transform\/index.*$/gm, '')
     .replace(/\n\n/g, '\n')
   //TRICKYEnd
