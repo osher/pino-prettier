@@ -30,29 +30,30 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "faker": "^5.5.3",
-    "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
     "mocha": "^10.8.2",
     "nyc": "^17.1.0",
     "pino": "^9.5.0",
+    "pre-commit": "^1.2.2",
     "pre-push": "^0.1.4",
     "rimraf": "^6.0.1",
     "should": "^13.2.3"
   },
   "scripts": {
-    "postinstall": "husky init && echo 'npm run pre-commit' > .husky/pre-commit",
     "test": "mocha",
     "precover": "rimraf coverage",
     "cover": "nyc mocha",
     "lint": "eslint .",
     "refresh-fixtures": "node test/fx/uses-pino.js json | tee test/fx/log.jsonstream.txt | node bin/bin.js > test/fx/log.beautified.txt; echo Done; git status",
-    "prepare": "husky",
     "pre-commit": "lint-staged"
   },
   "directories": {
     "lib": "lib",
     "test": "test"
   },
+  "pre-commit": [
+    "pre-commit"
+  ],
   "pre-push": [
     "test",
     "cover",
