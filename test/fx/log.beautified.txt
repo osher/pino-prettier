@@ -9,7 +9,7 @@
       type: [32m'Error'[39m,
       message: [32m'oupsy'[39m,
       stack: [32m'Error: oupsy\n'[39m +
-        [32m'    at Object.<anonymous> (/home/osher/opensource/pino-prettier/test/fx/uses-pino.js:35:20)\n'[39m +
+        [32m'    at Object.<anonymous> (~/test/fx/uses-pino.js:35:20)\n'[39m +
         [32m'    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n'[39m +
         [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n'[39m +
         [32m'    at Module.load (node:internal/modules/cjs/loader:1288:32)\n'[39m +
@@ -22,7 +22,7 @@
       type: [32m'RichError'[39m,
       message: [32m'OUCH'[39m,
       stack: [32m'Error: OUCH\n'[39m +
-        [32m'    at Object.<anonymous> (/home/osher/opensource/pino-prettier/test/fx/uses-pino.js:36:18)\n'[39m +
+        [32m'    at Object.<anonymous> (~/test/fx/uses-pino.js:36:18)\n'[39m +
         [32m'    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n'[39m +
         [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n'[39m +
         [32m'    at Module.load (node:internal/modules/cjs/loader:1288:32)\n'[39m +
@@ -37,7 +37,7 @@
       type: [32m'RichError'[39m,
       message: [32m'Silence! I kill you!'[39m,
       stack: [32m'Error: Silence! I kill you!\n'[39m +
-        [32m'    at Object.<anonymous> (/home/osher/opensource/pino-prettier/test/fx/uses-pino.js:37:18)\n'[39m +
+        [32m'    at Object.<anonymous> (~/test/fx/uses-pino.js:37:18)\n'[39m +
         [32m'    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n'[39m +
         [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n'[39m +
         [32m'    at Module.load (node:internal/modules/cjs/loader:1288:32)\n'[39m +
