@@ -52,6 +52,7 @@ Have fun :)
 
 ## history
 
+* **3.0.1** - colorization should follow `pino` with `require('colorette').isColorSupported`
 * **3.0.0** - modernized dependencies, improve tests, compatibility with modern versions of pino ([transport target](https://github.com/pinojs/pino-pretty?tab=readme-ov-file#integration))
 * **2.0.3** - cli command changed from `prettier` to `pino-prettier` so it wont collide with the `prettier` lint tool.
 * **1.0.1** - first stable, however works only as CLI

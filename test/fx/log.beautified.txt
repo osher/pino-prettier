@@ -1,49 +1,49 @@
-[90mTRACE[39m [16:52:06.008]: [36m[1mapplication[22m : [36mwhat is it[36m[39m
-    some: [32m'context'[39m
-[34mDEBUG[39m [16:52:06.009]: [36m[38;5;76;1mloi[0m : [36mthis is debug info[36m[39m
-    more: [32m'context'[39m
-[32mINFO[39m [16:52:06.009]: [36m[1mapplication[22m : [36msome milestone happened[36m[39m
-    count: [33m12[39m
-[33mWARN[39m [16:52:06.009]: [36m[38;5;202;1mfrerre[0m : [36mim not sure about this[36m[39m
+TRACE [16:52:06.008]: application : what is it
+    some: 'context'
+DEBUG [16:52:06.009]: loi : this is debug info
+    more: 'context'
+INFO [16:52:06.009]: application : some milestone happened
+    count: 12
+WARN [16:52:06.009]: frerre : im not sure about this
     err: {
-      type: [32m'Error'[39m,
-      message: [32m'oupsy'[39m,
-      stack: [32m'Error: oupsy\n'[39m +
-        [32m'    at Object.<anonymous> (~/test/fx/uses-pino.js:35:20)\n'[39m +
-        [32m'    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n'[39m +
-        [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n'[39m +
-        [32m'    at Module.load (node:internal/modules/cjs/loader:1288:32)\n'[39m +
-        [32m'    at Module._load (node:internal/modules/cjs/loader:1104:12)\n'[39m +
-        [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n'[39m +
-        [32m'    at node:internal/main/run_main_module:28:49'[39m
+      type: 'Error',
+      message: 'oupsy',
+      stack: 'Error: oupsy\n' +
+        '    at Object.<anonymous> (~/test/fx/uses-pino.js:35:20)\n' +
+        '    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n' +
+        '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n' +
+        '    at Module.load (node:internal/modules/cjs/loader:1288:32)\n' +
+        '    at Module._load (node:internal/modules/cjs/loader:1104:12)\n' +
+        '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n' +
+        '    at node:internal/main/run_main_module:28:49'
     }
-[31mERROR[39m [16:52:06.009]: [36m[38;5;209;1mmoi[0m : [36moupsy dazy[36m[39m
+ERROR [16:52:06.009]: moi : oupsy dazy
     err: {
-      type: [32m'RichError'[39m,
-      message: [32m'OUCH'[39m,
-      stack: [32m'Error: OUCH\n'[39m +
-        [32m'    at Object.<anonymous> (~/test/fx/uses-pino.js:36:18)\n'[39m +
-        [32m'    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n'[39m +
-        [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n'[39m +
-        [32m'    at Module.load (node:internal/modules/cjs/loader:1288:32)\n'[39m +
-        [32m'    at Module._load (node:internal/modules/cjs/loader:1104:12)\n'[39m +
-        [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n'[39m +
-        [32m'    at node:internal/main/run_main_module:28:49'[39m,
-      code: [32m'EOUCH'[39m,
-      class: [32m'ouch error'[39m
+      type: 'RichError',
+      message: 'OUCH',
+      stack: 'Error: OUCH\n' +
+        '    at Object.<anonymous> (~/test/fx/uses-pino.js:36:18)\n' +
+        '    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n' +
+        '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n' +
+        '    at Module.load (node:internal/modules/cjs/loader:1288:32)\n' +
+        '    at Module._load (node:internal/modules/cjs/loader:1104:12)\n' +
+        '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n' +
+        '    at node:internal/main/run_main_module:28:49',
+      code: 'EOUCH',
+      class: 'ouch error'
     }
-[41mFATAL[49m [16:52:06.009]: [36m[38;5;209;1mmoi[0m : [36mtime to say goodbye[36m[39m
+FATAL [16:52:06.009]: moi : time to say goodbye
     err: {
-      type: [32m'RichError'[39m,
-      message: [32m'Silence! I kill you!'[39m,
-      stack: [32m'Error: Silence! I kill you!\n'[39m +
-        [32m'    at Object.<anonymous> (~/test/fx/uses-pino.js:37:18)\n'[39m +
-        [32m'    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n'[39m +
-        [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n'[39m +
-        [32m'    at Module.load (node:internal/modules/cjs/loader:1288:32)\n'[39m +
-        [32m'    at Module._load (node:internal/modules/cjs/loader:1104:12)\n'[39m +
-        [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n'[39m +
-        [32m'    at node:internal/main/run_main_module:28:49'[39m,
-      code: [32m'SIGTERM'[39m
+      type: 'RichError',
+      message: 'Silence! I kill you!',
+      stack: 'Error: Silence! I kill you!\n' +
+        '    at Object.<anonymous> (~/test/fx/uses-pino.js:37:18)\n' +
+        '    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n' +
+        '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n' +
+        '    at Module.load (node:internal/modules/cjs/loader:1288:32)\n' +
+        '    at Module._load (node:internal/modules/cjs/loader:1104:12)\n' +
+        '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n' +
+        '    at node:internal/main/run_main_module:28:49',
+      code: 'SIGTERM'
     }
-[32mINFO[39m [16:52:06.009]: [36m[1mapplication[22m : [36mexited gracefully[36m[39m
+INFO [16:52:06.009]: application : exited gracefully

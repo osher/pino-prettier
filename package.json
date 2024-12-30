@@ -1,6 +1,6 @@
 {
   "name": "pino-prettier",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "a pretifier for pino logger json-output based on pino-pretty.",
   "main": "lib/pino-target.js",
   "bin": {
